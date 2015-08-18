@@ -6,7 +6,6 @@ body {
 .head {
   width: 100%;
   height: 77px;
-  background-color: #eee;
 }
 .head .wrap {
   height: 77px;
@@ -84,6 +83,7 @@ body {
   background: url(image/liji.png);
   width: 203px;
   height: 45px;
+  cursor: pointer;
 }
 .login .foot {
   color: #ababab;
@@ -100,11 +100,14 @@ body {
   text-align: center;
   padding-top: 30px;
 }
-.history .his_pic {
-  margin: 0 50px;
-}
 .history a img {
   vertical-align: top;
+}
+.history .left {
+  float: left;
+}
+.history .right {
+  float: right;
 }
 .fuli {
   overflow: hidden;
@@ -136,12 +139,23 @@ body {
 .register .wrap {
   position: relative;
 }
-.register .wrap a:last-child {
+.register .wrap .click {
   width: 223px;
   height: 50px;
   position: absolute;
-  right: 105px;
   top: 249px;
+}
+.register .wrap .cl_1 {
+  left: 106px;
+}
+.register .wrap .cl_2 {
+  left: 357px;
+}
+.register .wrap .cl_3 {
+  right: 365px;
+}
+.register .wrap a:last-child {
+  right: 105px;
 }
 .friend {
   background: #eeeeee;
